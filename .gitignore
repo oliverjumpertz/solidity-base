@@ -1,0 +1,11 @@
+# Node
+node_modules/
+
+# Solidity
+artifacts/
+cache/
+
+# Istanbul
+# Remove if you want to host the reports in your repository, otherwise leave it as it is.
+coverage/
+coverage.json

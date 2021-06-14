@@ -1,0 +1,24 @@
+{
+  "name": "solidity-development-environment",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "hardhat compile",
+    "test:light": "hardhat test",
+    "test": "hardhat coverage",
+    "local-testnet": "hardhat node",
+    "deploy:local": "hardhat run --network localhost scripts/deployMyContract.js"
+  },
+  "keywords": [],
+  "author": "Oliver Jumpertz",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.3.0",
+    "ethers": "^5.3.1",
+    "hardhat": "^2.3.3",
+    "solidity-coverage": "^0.7.16"
+  }
+}
